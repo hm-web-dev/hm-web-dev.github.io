@@ -26,21 +26,17 @@ The schedule and assignments may be changed until officially covered in class. Y
 2. Routing via Express
 3. Managing Databases with SQL
 4. Working with APIs
-5. Lab 3
-
-{% comment %}   
- 1. [Introduction to Data]({{site.baseurl}}/units/02/01/)
-  2. [How Data is Organized]({{site.baseurl}}/units/02/02/)
-  3. [Designing a Study]({{site.baseurl}}/units/02/03)
-  4. [Conducting Experiments]({{site.baseurl}}/units/02/04)
-  5. [Cleaning and Preparing Data]({{site.baseurl}}/units/02/05)
-  6. [Using APIs]({{site.baseurl}}/units/02/06/)
-  7. [Lab 2]({{site.baseurl}}/units/02/07/) 
-{% endcomment %}
+5. Lab 3 and First Proposal
 
 ## Unit 4: Building a Client
 
-
-
+1. Vue Basics
+2. Vue Components
+3. Vue Router
+4. Communicating with Servers via Axios
 
 ## Unit 5: Building a Full-Stack Application
+
+1. Project Planning - (Re)Proposals
+2. Check Ins
+3. Final Presentations

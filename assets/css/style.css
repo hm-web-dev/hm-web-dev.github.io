@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BottomLine {
+    width: 10em;
+    margin: 2em auto
+}

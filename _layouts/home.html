@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<link rel="stylesheet" href="/assets/css/style.css">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+      <hr class="BottomLine">
+      <footer>
+        {% if page.prevurl %}
+        <a href="{{site.baseurl}}/{{page.prevurl}}" class="PostNavLink --prev">
+          << {{page.prevtitle}}</a>
+            {% endif %}
 
-    {%- include footer.html -%}
+            {% if page.nexturl %}
+            <a href="{{site.baseurl}}/{{page.nexturl}}" class="PostNavLink --next">
+              {{page.nexttitle}} >></a>
+            {% endif %}
+    </div>
+    </footer>
+  </main>
+  {%- include footer.html -%}
 
-  </body>
+</body>
 
 </html>

@@ -1,0 +1,11 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+		"composite": false,
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"paths": {},
+		"strictNullChecks": true
+	},
+	"exclude": ["node_modules", "dist", "public"]
+}

@@ -18,7 +18,7 @@ The schedule and assignments may be changed until officially covered in class. Y
   1. [HTML]({{site.baseurl}}/units/02/html)
   2. [CSS]({{site.baseurl}}/units/02/css)
   3. [JavaScript]({{site.baseurl}}/units/02/js)
-  4. [Lab 2]({{site.baseurl}}/units/02/lab2jsgame) 
+  4. [Lab 2]({{site.baseurl}}/units/02/lab)
 
 ## Unit 3: Building an API
 

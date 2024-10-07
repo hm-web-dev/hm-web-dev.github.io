@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: "Exercise: Javascript"
 nexttitle: 2.Lab
 nexturl: units/02/lab

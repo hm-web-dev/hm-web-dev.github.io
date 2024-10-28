@@ -22,11 +22,12 @@ The schedule and assignments may be changed until officially covered in class. Y
 
 ## Unit 3: Building an API
 
-1. Node.js and Project Structure
-2. Routing via Express
-3. Managing Databases with SQL
-4. Working with APIs
-5. Lab 3 and First Proposal
+1. [Javascript Types]({{site.baseurl}}/units/03/js-types)
+2. [Javascript Functions]({{site.baseurl}}/units/03/js-functions)
+3. Routing via Express
+4. Managing Databases with SQL
+5. Working with APIs
+6. Lab 3 and First Proposal
 
 ## Unit 4: Building a Client
 

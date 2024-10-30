@@ -37,15 +37,15 @@ const foo7 = 23.8
 const foo8 = [1, 2, 3, 4, 5, 'hi']
 const foo9 = {'bar': 'baz', 2: 3}
 const foo10 = x => x + 5
-// foo9("hello") >>> "hello5"
-// foo9(4) >>> 9
-function foo10(x){
+// foo10("hello") >>> "hello5"
+// foo10(4) >>> 9
+function foo11(x){
     return function(y){
         return x + y
     }
 }
-//foo10(3)(5) >>> 8
-//foo10("hello")("world") >>> "helloworld"
+//foo11(3)(5) >>> 8
+//foo11("hello")("world") >>> "helloworld"
 const something = document.getElementById()
 // what happens when 
 ```

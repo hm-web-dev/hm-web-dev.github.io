@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Exercise: Javascript Functions" 
-nexttitle: 3.3 
-nexturl: units/03/js-functions
-prevurl: units/02/lab
+nexttitle: 3.3 Typescript
+nexturl: units/03/js-typescript
+prevurl: units/03/js-types
 prevtitle: 3.1 JS Types
 --- 
 
@@ -49,11 +49,9 @@ const foo = function(x) { return x + 1; }
 const foo = (x) => x + 1;
 ```
 
-The only difference is that in arrow functions, the keyword `this` refers to the **parent scope**.
+## Callback Functions
 
-## Callback Functions 
-
-A **callback function** is a function that is passed into another function as a parameter. For example, setTimeout takes a callback function that will execute after 1000 ms, written using an arrow function or in the regular function notation:
+A **callback function** is a function that is passed into another function as a parameter. For example, `setTimeout` takes a callback function that will execute after 1000 ms, written using an arrow function or in the regular function notation:
 
 ```js
 // Snippet 1 - regular function notation
@@ -65,16 +63,38 @@ setTimeout(function() {
 setTimeout(() => console.log("Hello!"), 1000);
 ```
 
-When a function is passed into another function without being named, it is called an **anonymous function**. Both the `console.log` functions in the above snippets are anonymous functions. You'll see these a lot in javascript code, both in front end and back end development.
+When a function is passed into another function without being named, it is called an **anonymous function**. Both the functions that `console.log` in the above snippets are anonymous functions. You'll see these *a lot* in javascript code, both in front end and back end development.
 
 ## Exercises
 
 1. Write an arrow function that takes a string and returns the lowercase version of that string.
-2. Write an arrow function that takes a string `prefix` and returns another function that prepends `prefix` to its parameter.
+2. Write an arrow function that takes a string `prefix` and returns a **function** that prepends `prefix` to its own parameter.
+   
+   ```js
+   const prefix = "Hello, ";
+   const funcPrepend = (prefix) => {
+      // Your code here
+   }
+   // funcPrepend("hello") -> function that takes a string) 
+   // funcPrepend("hello")("world") -> "hello world"
+   ```
 3. Write an arrow function that takes a string `prefix` and returns a **function** that takes a string `postfix` that returns another function that takes a string and returns correctly prepends/appends the pre/postfix to its parameter.
-These practice questions are taken from [eloquentjavascript.net](https://eloquentjavascript.net/05_higher_order.html).
+   
+    ```js
+    const prefix = "Hello, ";
+    const postfix = "!";
+    const funcPrepend = (prefix) => {
+        // Your code here
+    }
+    // funcPrepend("hello") -> function that takes a string) 
+    // funcPrepend("hello")("foo") -> function that takes a string
+    // funcPrepend("hello")("goodbye")("foo") -> "hello foo goodbye!"
+    ```
+This was just showing you that you can return functions from functions. 
 
-1. Write a function that maps number grades to letter grades. Use the following grading scale: 
+Some of these practice questions are taken from [eloquentjavascript.net](https://eloquentjavascript.net/05_higher_order.html).
+
+1. Write a function that maps (use `map()`) number grades to letter grades. Use the following grading scale: 
   ```
    A is 89.5-100, B is [79.5-89.5), C is [69.5-79.5), D is [59.5-69.5), and F is [0-59.49).
   ```

@@ -112,7 +112,7 @@ let arrays = [[1, 2, 3], [4, 5], [6]];
 // flat(arrays) → [1, 2, 3, 4, 5, 6]
 ```
 
-6. Write a function `every(array,test)` that returns whether `test` returns true for every element in the given array.
+6. Write a function `every(array,test)` that returns whether `test` returns true for every element in the given array.** This function already [exists](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every), but can you write it yourself? :)
 
 ```js
 function every(array, test) {

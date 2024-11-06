@@ -16,18 +16,9 @@ Make a new file called `typescript.ts` and add types to the following variables:
 ```js
 const foo7: number = 23.8
 const foo8 = [1, 2, 3, 4, 5, 'hi']
-const foo9 = {'bar': 'baz', 2: 3}
-const foo10 = x => x + 5
-// foo10("hello") >>> "hello5"
-// foo10(4) >>> 9
-function foo11(x){
-    return function(y){
-        return x + y
-    }
-}
 ```
 
-What happens when you try to compile this code with `tsc typescript.ts`? Add these lines of code to the end of the file to see what happens when you try to compile it.
+What happens when you compile this code with `tsc typescript.ts`? Add these lines of code to the end of the file to see what happens when you try to compile it.
 
 ```js
 console.log(foo7 + [2,3]);
@@ -40,9 +31,17 @@ Typescript is pretty smart, you don't need to add types to everything. Remove th
 
 ## Typing Functions 
 
-To the same file, also type the functions that you wrote for the previous assignment:
+In the same file, also type the functions that you wrote for the previous assignments:
 
 ```js
+const foo10 = x => x + 5
+// foo10("hello") >>> "hello5"
+// foo10(4) >>> 9
+function foo11(x){
+    return function(y){
+        return x + y
+    }
+}
    const lettergrade = function() {
     // your code 
    }
@@ -55,6 +54,19 @@ To the same file, also type the functions that you wrote for the previous assign
 ```
 
 ## Typing Objects
+
+Type this object strictly:
+
+```js
+const foo9 = {'bar': 'baz', 2: 3}
+```
+
+```js
+console.log(foo9['baz']);
+console.log(foo9.baz); 
+```
+
+Do both of these lines get an error on compilation? So, is bracket notation or dot notation better?
 
 1. Write a type alias called `Citizen` for an object with keys `id` and `name`, the former being a number and the latter a string.
 2. Add an optional key to that type called `description`.

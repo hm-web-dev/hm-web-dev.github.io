@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: home
 title: Lab 2 - Mouse Accuracy Game
 nexttitle: 3.1 JS Types
-nexturl: units/03/js
+nexturl: units/03/js-types
 prevurl: units/02/js
 prevtitle: 2.3 JS
 ---

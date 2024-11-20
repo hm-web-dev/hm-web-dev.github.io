@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Exercise: CSS"
 nexttitle: 2.3 JS
 nexturl: units/02/js

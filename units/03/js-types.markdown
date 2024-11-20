@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title: "3.1 Exercise: Javascript Types"
 nexttitle: 3.2 JS Functions
 nexturl: units/03/js-functions

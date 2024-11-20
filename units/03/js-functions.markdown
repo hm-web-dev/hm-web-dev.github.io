@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title: "Exercise: Javascript Functions" 
 nexttitle: 3.3 Typescript
 nexturl: units/03/js-typescript

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: home
 title: "3.3 Exercise: Using Typescript"
-nexttitle: 3.4 Javascript PSet
-nexturl: units/04/js-pset
+nexttitle: 3.4 Express
+nexturl: units/03/express
 prevurl: units/03/js-functions
 prevtitle: 3.2 JS Functions
 --- 
@@ -72,5 +72,6 @@ Do both of these lines get an error on compilation? So, is bracket notation or d
 2. Add an optional key to that type called `description`.
 3. Make an interface of those same keys, call it a `Person`.
 4. Extend that type interface and call it `Student`. Add a `gpa` key to it.
+5. Create a variable of type Person. 
 
 Turn in the `typescript.ts` file to me! (you can also send in your compiled js file but that's unnecessary)

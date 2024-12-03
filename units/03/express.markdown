@@ -1,10 +1,10 @@
 ---
 layout: home
 title: "3.4 Exercise: Express"
-nexttitle: 3.5 "Exercise: SQLite With Express"
 nexturl: units/03/sqlite
 prevurl: units/03/js-typescript
 prevtitle: 3.3 Typescript
+nexttitle: "3.5 Exercise: SQLite With Express"
 --- 
 
 [Express](https://expressjs.com/) is a Node library that allows you to run a server and expose endpoints for users to access. In other words, it allows you to create an API!

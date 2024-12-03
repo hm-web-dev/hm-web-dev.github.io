@@ -12,7 +12,6 @@ The schedule and assignments may be changed until officially covered in class. Y
   <!-- 2. [Setting up the Environment]({{site.baseurl}}/units/01/environment) -->
   1. [Lab 1 - Team Contract]({{site.baseurl}}/units/01/lab1teamcontract)
 
-
 ## Unit 2: Web Dev Basics
 
   1. [HTML]({{site.baseurl}}/units/02/html)
@@ -25,10 +24,9 @@ The schedule and assignments may be changed until officially covered in class. Y
 1. [Javascript Types]({{site.baseurl}}/units/03/js-types)
 2. [Javascript Functions]({{site.baseurl}}/units/03/js-functions)
 3. [Typescript]({{site.baseurl}}/units/03/js-typescript)
-4. Routing via Express
-5. Managing Databases with SQL
-6. Working with APIs
-7. Lab 3 and First Proposal
+4. [Routing via Express]({{site.baseurl}}/units/03/express)
+5. [Managing Databases with SQL]({{site.baseurl}}/units/03/sqlite)
+6. [Lab 3 and First Proposal]({{site.baseurl}}/units/03/lab})
 
 ## Unit 4: Building a Client
 

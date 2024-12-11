@@ -26,7 +26,7 @@ The schedule and assignments may be changed until officially covered in class. Y
 3. [Typescript]({{site.baseurl}}/units/03/js-typescript)
 4. [Routing via Express]({{site.baseurl}}/units/03/express)
 5. [Managing Databases with SQL]({{site.baseurl}}/units/03/sqlite)
-6. [Lab 3 and First Proposal]({{site.baseurl}}/units/03/lab})
+6. [Lab 3 and First Proposal]({{site.baseurl}}/units/03/lab)
 
 ## Unit 4: Building a Client
 

@@ -3,7 +3,7 @@ layout: home
 title: "3.5 Exercise: SQLite With Express" 
 nexttitle: "Lab 3"
 nexturl: units/03/lab
-prevurl: units/03/sqlite
+prevurl: units/03/express
 prevtitle: "3.4 Exercise: Express"
 --- 
 

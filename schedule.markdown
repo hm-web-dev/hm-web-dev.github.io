@@ -33,7 +33,7 @@ The schedule and assignments may be changed until officially covered in class. Y
 1. Vue Basics
 2. Vue Components
 3. Vue Router
-4. Communicating with Servers via Axios
+4. [Communicating with Servers via Axios]({{site.baseurl}}/units/04/client-server)
 
 ## Unit 5: Building a Full-Stack Application
 

@@ -26,7 +26,7 @@ As a team, submit a document that answers the following questions.
 5. What do you need to code for a back-end application / storage? (All projects need some back-end)
 6. What is your minimum viable product (MVP)? 
    1. *NOTE:* An MVP can look ugly, or miss a feature that you really want to build, but an MVP is something. And iterating on SOMETHING is easier than coming up with something from nothing!
-7. Provide a rough **8 week** outline of your project goals.
+7. Provide a rough **11 week** outline of your project goals.
 
 Example below (in markdown): 
 

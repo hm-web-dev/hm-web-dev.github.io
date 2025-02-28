@@ -30,13 +30,13 @@ The schedule and assignments may be changed until officially covered in class. Y
 
 ## Unit 4: Building a Client
 
-1. Vue Basics
-2. Vue Components
-3. Vue Router
+1. [Vue Basics]({{site.baseurl}}/units/04/vue-intro)
+2. [Vue Components]({{site.baseurl}}/units/04/vue-components)
+3. [Vue Router]({{site.baseurl}}/units/04/vue-routing)
 4. [Communicating with Servers via Axios]({{site.baseurl}}/units/04/client-server)
 
 ## Unit 5: Building a Full-Stack Application
 
-1. Project Planning - (Re)Proposals
+1. [Project Planning - (Re)Proposals]({{site.baseurl}}/units/05/project-reproposals)
 2. Check Ins
 3. Final Presentations

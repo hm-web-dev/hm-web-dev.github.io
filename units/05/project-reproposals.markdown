@@ -1,8 +1,8 @@
 ---
 layout: home
 title: "Final Project Proposals" 
-nexttitle: ""
-nexturl: units/05/
+nexttitle: "Check Ins"
+nexturl: units/05/check-ins
 prevurl: units/04/client-server
 prevtitle: "4.5 Client Server"
 --- 

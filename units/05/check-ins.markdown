@@ -1,10 +1,10 @@
 ---
 layout: home
 title: "Final Project Check Ins" 
-nexttitle: ""
-nexturl: units/05/
+nexttitle: "Presentations"
+nexturl: units/05/presentation
 prevurl: units/05/project-reproposals
-prevtitle: "4.5 Client Server"
+prevtitle: "5.1 Project Proposals"
 --- 
 
 Each team should submit a document that contains the following information. Your responses should be brief (1-2 paragraphs max). You may use bullet points.

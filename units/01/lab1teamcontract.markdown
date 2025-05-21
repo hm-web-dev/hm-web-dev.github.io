@@ -4,7 +4,6 @@ title: Lab 1 Team Contract
 nexturl: units/02/html
 nexttitle: 2.1 HTML
 ---
-# Lab 1 Team Contract
 
 Work together with your team to write a team contract. This is something you should all agree on and contribute to.
 Your team contract should include (but is not limited to):

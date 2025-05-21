@@ -6,7 +6,6 @@ nexturl: units/02/css
 prevurl: units/01/lab1teamcontract
 prevtitle: Lab 1
 ---
-# Exercise: HTML
 
 The [w3schools HTML Tutorial](https://www.w3schools.com/html/) is a great resource to start learning HTML. It's also a great place to look for
 HTML documentation!

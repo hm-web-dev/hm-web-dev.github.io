@@ -7,8 +7,6 @@ prevurl: units/02/html
 prevtitle: 2.1 HTML
 ---
 
-## CSS
-
 You can use [mdn](https://developer.mozilla.org/en-US/docs/Web/CSS) as a reference.
 
 ## Questions

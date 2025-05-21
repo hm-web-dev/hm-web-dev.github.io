@@ -5,8 +5,6 @@ nexturl: units/01/lab1teamcontract
 nexttitle: Lab 1 Team Contract
 ---
 
-# Exercise: Git and Markdown
-
 ## Git
 
 Git is a **version control system** that allows you to track changes in your code. It is a powerful tool that allows you to collaborate with others and keep track of your work.

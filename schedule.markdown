@@ -3,7 +3,6 @@ layout: home
 title: Schedule
 permalink: /schedule/
 ---
-# Schedule
 
 The schedule and assignments may be changed until officially covered in class. You are certainly free to work ahead; but be aware that the schedule may change.
 
@@ -38,5 +37,5 @@ The schedule and assignments may be changed until officially covered in class. Y
 ## Unit 5: Building a Full-Stack Application
 
 1. [Project Planning - (Re)Proposals]({{site.baseurl}}/units/05/project-reproposals)
-2. Check Ins
-3. Final Presentations
+2. [Check Ins]({{site.baseurl}}/units/05/check-ins)
+3. [Final Presentations]({{site.baseurl}}/units/05/presentation)

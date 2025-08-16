@@ -25,7 +25,7 @@ Fork this github repository: [intro-to-sqlite](https://github.com/hm-software-en
 
 - And clone it to your computer.
 - Run `npm install` to install the `sqlite3` and `express` package, since there is a pre-existing `package.json` here that specifies these dependencies.
-- Change the `index.ts` (and `db.js`) file so that it supports CRUD changes for this sample database.
+- Change the `index.ts` (and `db.ts`) file so that it supports CRUD changes for this sample database.
 - Reading the `README.md` that has links to the documentation for the sqlite3 package will be crucial for your success with this homework.
 - Change the `README` to communicate to other developers what endpoints are available to hit, which is what you would do if you wish to make a public API!
 - Turn this in on Google Classroom and submit a link to your github repo.

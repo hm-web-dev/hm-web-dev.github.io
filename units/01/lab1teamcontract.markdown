@@ -9,7 +9,7 @@ Work together with your team (2-3 people) to make an engaging jeopardy game.
 
 ## Requirements
 
-- your game should equally about each of you! skills that each of you have / are working towards.
+- your game should equally about each of you, and all of you must own one question per category (past, present, future). You can feature: important things about your identity, skills that each of you have, skills you are working towards, your biggest dreams...
 - at least 3 questions with pictures; 1 picture must be stored locally in the repo. The others can be links to images on the web.
 - everyone commiting to the same github repository.
 - An updated README.md file that includes a screenshot of one `git push`. Please use command line or the git extension on VSCode to make your commits.
